@@ -41,3 +41,9 @@ VALUES
 ('doraemon','fujiko_fujio','1998','5','komik doraemon'),
 ('naruto','masashi kishimoto','1998','10','manga naruto'),
 ('one piece','Oda','1998','10','manga one piece');
+
+INSERT INTO `tb_pinjam`
+(`id_user`, `id_buku`, `tanggal_pinjam`, `tanggal_kembali`, `jumlah`) 
+VALUES 
+('1','1','2026-11-23','2026-11-25', 2),
+('1','2','2026-11-23','2026-11-25', 2);
